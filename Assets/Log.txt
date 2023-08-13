@@ -1,0 +1,10 @@
+TODO : 
+1. drawergame sudah bisa cycle, utk visual abaikan saja dulu.
+2. Utk cycle drawergame asumsikan : 
+	1. Tiap level template ada semacam informasi level
+	2. asumsikan informasi ini berbentuk array/list
+	3. Jika si array no 2 sudah dicycle, direalisasikan di layar pindah ke template lain. tandai update point
+////
+
+So far direfactor menjadi 1 buah level/gamemanager saja. 
+Penambahan terletak pada adanya variabel baru levellayout, anchor dan struct yang dipakai utk spawn layout
